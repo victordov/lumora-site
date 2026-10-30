@@ -58,6 +58,90 @@
         "ro" : "Lumini de iarnă"
       },
       "version" : 1
+    },
+    {
+      "colors" : [
+        16766571,
+        3878047
+      ],
+      "ends" : "2027-01-31",
+      "file" : "starfall-2027.json",
+      "id" : "starfall-2027",
+      "minLevelFormat" : 1,
+      "reward" : 250,
+      "starts" : "2027-01-07",
+      "symbol" : "sparkles",
+      "title" : {
+        "de" : "Sternschnuppen",
+        "en" : "Starfall",
+        "es" : "Lluvia de estrellas",
+        "fr" : "Pluie d'étoiles",
+        "ro" : "Ploaie de stele"
+      },
+      "version" : 1
+    },
+    {
+      "colors" : [
+        16740264,
+        12720219
+      ],
+      "ends" : "2027-02-28",
+      "file" : "hearts-2027.json",
+      "id" : "hearts-2027",
+      "minLevelFormat" : 1,
+      "reward" : 250,
+      "starts" : "2027-02-01",
+      "symbol" : "heart.fill",
+      "title" : {
+        "de" : "Herzen aus Licht",
+        "en" : "Hearts of Light",
+        "es" : "Corazones de luz",
+        "fr" : "Cœurs de lumière",
+        "ro" : "Inimi de lumină"
+      },
+      "version" : 1
+    },
+    {
+      "colors" : [
+        16753617,
+        4173418
+      ],
+      "ends" : "2027-03-31",
+      "file" : "spring-2027.json",
+      "id" : "spring-2027",
+      "minLevelFormat" : 1,
+      "reward" : 250,
+      "starts" : "2027-03-01",
+      "symbol" : "camera.macro",
+      "title" : {
+        "de" : "Frühlingsblüte",
+        "en" : "Spring Bloom",
+        "es" : "Primavera en flor",
+        "fr" : "Printemps en fleurs",
+        "ro" : "Primăvara în floare"
+      },
+      "version" : 1
+    },
+    {
+      "colors" : [
+        6084351,
+        9067775
+      ],
+      "ends" : "2027-04-30",
+      "file" : "rainbow-2027.json",
+      "id" : "rainbow-2027",
+      "minLevelFormat" : 1,
+      "reward" : 250,
+      "starts" : "2027-04-01",
+      "symbol" : "rainbow",
+      "title" : {
+        "de" : "Regenbogenschauer",
+        "en" : "Rainbow Showers",
+        "es" : "Lluvias de arcoíris",
+        "fr" : "Averses d'arc-en-ciel",
+        "ro" : "Ploi cu curcubeu"
+      },
+      "version" : 1
     }
   ]
 }

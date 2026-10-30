@@ -1,0 +1,63 @@
+{
+  "packs" : [
+    {
+      "colors" : [
+        16747036,
+        7027711
+      ],
+      "ends" : "2026-11-02",
+      "file" : "halloween-2026.json",
+      "id" : "halloween-2026",
+      "minLevelFormat" : 1,
+      "reward" : 150,
+      "starts" : "2026-10-29",
+      "symbol" : "moon.stars.fill",
+      "title" : {
+        "en" : "Halloween"
+      },
+      "version" : 1
+    },
+    {
+      "colors" : [
+        16757051,
+        12730636
+      ],
+      "ends" : "2026-11-30",
+      "file" : "autumn-2026.json",
+      "id" : "autumn-2026",
+      "minLevelFormat" : 1,
+      "reward" : 250,
+      "starts" : "2026-11-03",
+      "symbol" : "leaf.fill",
+      "title" : {
+        "de" : "Herbstlichter",
+        "en" : "Autumn Lights",
+        "es" : "Luces de otoño",
+        "fr" : "Lumières d'automne",
+        "ro" : "Lumini de toamnă"
+      },
+      "version" : 1
+    },
+    {
+      "colors" : [
+        10480127,
+        3894271
+      ],
+      "ends" : "2027-01-06",
+      "file" : "winter-2026.json",
+      "id" : "winter-2026",
+      "minLevelFormat" : 1,
+      "reward" : 250,
+      "starts" : "2026-12-01",
+      "symbol" : "snowflake",
+      "title" : {
+        "de" : "Winterlichter",
+        "en" : "Winter Lights",
+        "es" : "Luces de invierno",
+        "fr" : "Lumières d'hiver",
+        "ro" : "Lumini de iarnă"
+      },
+      "version" : 1
+    }
+  ]
+}

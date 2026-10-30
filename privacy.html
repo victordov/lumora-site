@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Lumora Privacy Policy</title>
-  <meta name="description" content="Privacy policy for Lumora: Light Puzzles. Lumora does not collect personal data.">
+  <meta name="description" content="Privacy policy for Lumora: Light Puzzles. Lumora sends only anonymous crash reports and anonymous usage data, and you can turn each off.">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -19,16 +19,22 @@
   </header>
 
   <h1>Privacy Policy</h1>
-  <p class="muted">Effective October 6, 2026</p>
+  <p class="muted">Effective October 28, 2026</p>
 
   <p>This policy explains how <strong>Lumora: Light Puzzles</strong> ("Lumora", "the app"), developed by
-    Victor Dovgaliuc ("we", "us"), handles information. The short version: we don't collect it.</p>
+    Victor Dovgaliuc ("we", "us"), handles information. The short version: the only things the app sends us are
+    anonymous crash reports and anonymous usage data about the puzzles, and you can turn each off.</p>
 
   <div class="summary">
     <strong>In short</strong>
     <ul>
-      <li>We do not collect, store or receive any personal data.</li>
-      <li>The app has no accounts, analytics, advertising or tracking, and uses no third-party SDKs.</li>
+      <li>We do not collect your name, contact details or any account.</li>
+      <li>The app has no accounts, advertising or tracking.</li>
+      <li>When something goes wrong, the app sends an anonymous crash report to PostHog. You can turn this off
+        in the app's Settings.</li>
+      <li>The app also sends anonymous usage data to PostHog, such as which puzzles are started, solved or left
+        and when hints are used, so we can make the puzzles better. It is never linked to you. You can turn this
+        off in the app's Settings too.</li>
       <li>Your game progress is saved only on your device.</li>
       <li>Purchases and Game Center are handled entirely by Apple.</li>
     </ul>
@@ -38,9 +44,66 @@
   <p>To remember your game, Lumora saves the following on your device only: levels completed and stars earned,
     your shard balance, unlocked chapters and cosmetics, settings (sound, haptics, accessibility, reminders),
     daily reward and quest progress, and the identifiers of purchases already credited (so a purchase is never
-    applied twice). This data never leaves your device through Lumora. We have no servers and cannot see it.
-    It is removed when you delete the app. Depending on your device settings, it may be included in your own
-    iCloud or computer backups, which are governed by Apple.</p>
+    applied twice). This data stays on your device: crash reports never include it, and usage data includes only
+    the few values listed below (for example, how many levels you have finished). It is removed when you delete
+    the app. Depending on your device settings, it may be included in your own iCloud or computer backups, which
+    are governed by Apple.</p>
+
+  <h2>Crash reports (PostHog)</h2>
+  <p>To find and fix problems, the app sends a report to PostHog, an error tracking service, when it crashes or
+    when something fails that the app recovers from (for example, a purchase that could not be completed). Reports
+    are processed on PostHog's servers in the United States and contain:</p>
+  <ul>
+    <li>what went wrong: the error type and message, where in the code it happened, and which part of the app was
+      involved (for a purchase error, the identifier of the item);</li>
+    <li>technical details: the app version, device model, iOS version, screen size, language, time zone and
+      whether the device is on Wi-Fi or a mobile network;</li>
+    <li>a random identifier created when the app is installed, so reports from the same install can be grouped.</li>
+  </ul>
+  <p>Reports never include your name, email, Apple Account, Game Center nickname, advertising identifier, game
+    progress or anything you type. PostHog receives your device's IP address when a report is sent, as any internet
+    service does; we have turned off looking up a location from it. We do not link reports to you, use them for
+    advertising or tracking, or sell them, and we keep them only as long as they help us fix problems. Turn reports
+    off at any time with <em>Settings &rsaquo; Privacy &rsaquo; Send crash reports</em> in the app. See the
+    <a href="https://posthog.com/privacy">PostHog Privacy Policy</a>.</p>
+
+  <h2>Usage data (PostHog)</h2>
+  <p>To see which puzzles are too hard, where players stop and whether players come back, the app sends short
+    anonymous messages about how the game is played to PostHog, the same service as the crash reports, processed
+    in the United States. They contain:</p>
+  <ul>
+    <li>that the app was installed or opened, how many days ago it was installed, how many levels you have finished,
+      and which version of the puzzles and of the app you have;</li>
+    <li>for each puzzle you start: which one it is (for example "chapter 2, level 5", the Daily, or an event), how
+      many days after installing the app you started it, and whether you solved it, skipped it or left it, with the
+      taps, hints, stars and seconds it took;</li>
+    <li>rewards and choices: claiming a daily reward, quest or star chest and the shards it gave, unlocking a
+      chapter (and whether with stars, shards or a purchase), the score at the end of an endless run, whether you
+      turned reminders on and whether you opened one, that the app suggested the Daily puzzle after your first boss
+      level and whether you played it, and that you opened the share sheet for a result;</li>
+    <li>your Daily streak: how many days long it is when you solve a Daily, and when a streak freeze covers a missed
+      day or a streak ends;</li>
+    <li>that the app asked iOS to show the App Store rating prompt (iOS decides whether it appears, and your rating
+      or review goes to Apple, not to us);</li>
+    <li>in versions that sell items: opening the shop, and whether a purchase went through, with the identifier
+      of the item (never payment details);</li>
+    <li>the same technical details and random identifier as crash reports, so messages from the same install can
+      be counted together without knowing who you are.</li>
+  </ul>
+  <p>Usage data never includes your name, email, Apple Account, Game Center nickname, advertising identifier,
+    contacts, location or anything you type, and the app does not record your screen or your taps. We have turned
+    off PostHog's user profiles and location lookup. We do not link usage data to you, combine it with data from
+    other companies, use it for advertising or tracking, or sell it, and we keep it only as long as it helps us
+    improve the game. Turn it off at any time with <em>Settings &rsaquo; Privacy &rsaquo; Share anonymous usage
+    data</em> in the app; the app stops collecting it straight away. Crash reports have their own switch.</p>
+
+  <h2>New puzzles from our website</h2>
+  <p>From time to time the app downloads new puzzle packs (for example for a holiday) from our website,
+    victordov.github.io, which is hosted by GitHub. The app asks for the list of packs at most every few hours
+    while you use it. These requests contain nothing about you or your game; like any web request, they reveal
+    your device's IP address and the app's name and version to GitHub. See the
+    <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">GitHub
+    Privacy Statement</a>.</p>
 
   <h2>In-app purchases and subscriptions</h2>
   <p>Purchases are processed by Apple through the App Store. We never receive your name, Apple ID, payment card or
@@ -57,20 +120,24 @@
 
   <h2>Notifications</h2>
   <p>If you choose to turn on reminders, Lumora schedules local notifications on your device (for example, when a new
-    Daily Challenge is ready). They are created on the device itself; no push server is involved and no data is sent
-    anywhere. You can turn them off in the app's settings or in your device's Settings.</p>
+    Daily Challenge is ready). They are created on the device itself; no push server is involved and the reminders
+    send nothing anywhere (usage data, if on, notes only whether you turned them on and whether you opened one). You can turn them off in the
+    app's settings or in your device's Settings.</p>
 
   <h2>Sharing your results</h2>
   <p>When you tap Share after solving a level, the app creates an image of the board and your score and hands it to
     the iOS share sheet. Nothing is shared unless you choose where to send it.</p>
 
   <h2>Children</h2>
-  <p>Lumora is suitable for all ages. Because the app does not collect personal data from anyone, it does not
-    knowingly collect personal data from children under 13 (or the equivalent minimum age in your region).</p>
+  <p>Lumora is suitable for all ages. Crash reports and usage data are anonymous and are not linked to any player,
+    so the app does not knowingly collect personal data from children under 13 (or the equivalent minimum age in
+    your region).</p>
 
   <h2>Your choices and rights</h2>
-  <p>Since we hold no personal data about you, there is nothing for us to access, correct, export or delete. To remove
-    everything Lumora has stored, delete the app from your device. Game Center data can be managed through Apple.</p>
+  <p>Crash reports and usage data are anonymous, so we cannot tell which of them came from you, and there is no
+    profile for us to access, correct or export. You can stop sending either at any time in the app's Settings, and
+    you can contact us with any request. To remove everything Lumora has stored on your device, delete the app.
+    Game Center data can be managed through Apple.</p>
 
   <h2>Changes to this policy</h2>
   <p>If the app's data practices change, for example if a future version adds a feature that requires collecting
